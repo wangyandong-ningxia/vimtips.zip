@@ -1,3 +1,8 @@
+* Modified totd.vim - the original version does not work with the newer vimtips.txt.
+* Add a working copy of vimtips.txt (vimtips.txt.zip).
+
+---
+
 This is a mirror of http://www.vim.org/scripts/script.php?script_id=88
 
      Whenever you start Vim (but no more than daily) the script will open a
