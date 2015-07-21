@@ -64,7 +64,7 @@ fun! TipOfTheDay(file, force)
   if v:errmsg == ""
     " Find the next tip:
     execute s:prevLine
-    call search('^VimTip\s\+\d\+:', 'w')
+    call search('^VimTip\s\+{{{1\s\d\+:', 'w')
     " Save the new line number:
     let s:prevLine = line(".")
     " Later, restore this buffer with :execute restore
@@ -148,9 +148,9 @@ fun! s:SetPersistentNumber(name, value)
   silent execute 's/=.*/=' a:value
 endfun
 
-let s:prevDate = 20060719
-let s:prevLine = 1
-let s:vimtipsDate = 20021122
+let s:prevDate = 20150721
+let s:prevLine = 239
+let s:vimtipsDate = 20150721
 
 let &l:cpo = s:save_cpo
 
