@@ -1,7 +1,9 @@
-* Modified totd.vim - the original version does not work with the newer vimtips.txt.
-* Add a working copy of vimtips.txt (vimtips.txt.zip).
+////////// BY WANG YANDONG //////////
 
----
++ Modify totd.vim - the original version does not work with the newer vimtips.txt.
++ Add a working copy of vimtips.txt (vimtips.txt.zip).
+
+////////// THE ORIGINAL README //////////
 
 This is a mirror of http://www.vim.org/scripts/script.php?script_id=88
 
